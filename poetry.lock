@@ -21,7 +21,7 @@ marker = "sys_platform != \"win32\" and sys_platform != \"cygwin\" and platform_
 name = "httptools"
 optional = false
 python-versions = "*"
-version = "0.0.13"
+version = "0.2.0"
 
 [[package]]
 category = "main"
@@ -45,7 +45,7 @@ version = "0.10.8"
 [package.dependencies]
 click = ">=7.0.0,<8.0.0"
 h11 = ">=0.8.0,<0.9.0"
-httptools = "0.0.13"
+httptools = "0.2.0"
 uvloop = ">=0.14.0"
 websockets = ">=8.0.0,<9.0.0"
 
@@ -80,7 +80,7 @@ h11 = [
     {file = "h11-0.8.1.tar.gz", hash = "sha256:acca6a44cb52a32ab442b1779adf0875c443c689e9e028f8d831a3769f9c5208"},
 ]
 httptools = [
-    {file = "httptools-0.0.13.tar.gz", hash = "sha256:e00cbd7ba01ff748e494248183abc6e153f49181169d8a3d41bb49132ca01dfc"},
+    {file = "httptools-0.2.0.tar.gz", hash = "sha256:e00cbd7ba01ff748e494248183abc6e153f49181169d8a3d41bb49132ca01dfc"},
 ]
 starlette = [
     {file = "starlette-0.13.0.tar.gz", hash = "sha256:6bd414152d40d000ccbf6aa40ed89718b40868366a0f69fb83034f416303acef"},
