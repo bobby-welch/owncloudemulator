@@ -5,7 +5,7 @@ description = ""
 authors = ["Florian Apolloner <florian@apolloner.eu>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.9"
 starlette = "^0.13.0"
 uvicorn = "^0.10.8"
 
