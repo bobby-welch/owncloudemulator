@@ -12,7 +12,6 @@ async def dav(request: Request):
     mapping = {
         "caldav": "https://caldav.fastmail.com/dav/calendars",
         "carddav": "https://carddav.fastmail.com/dav/addressbooks",
-        "webdav": "https://webdav.fastmail.com/"
     }
     return RedirectResponse(mapping[request.path_params["type"]])
 
